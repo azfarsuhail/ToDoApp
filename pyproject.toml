@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-neon"
+version = "0.1.0"
+description = ""
+authors = ["Azfar Suhail <138823481+azfarsuhail@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2 = "^2.9.9"
+click = "^8.1.7"
+sqlalchemy = "^2.0.28"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
